@@ -1,0 +1,58 @@
+{
+  "name": "GearBox",
+  "version": "0.1.0",
+  "description": "Microframework for cloud computing",
+  "authors": [
+    "Jordi Mahiques Alamo"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jmahiques/gearbox",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "exportsOverride": {
+    "angular": {
+      ".": "angular.min.*"
+    },
+    "angular-route": {
+      ".": "angular-route.min.*"
+    },
+    "bootstrap": {
+      "js": "bootstrap.min.js",
+      "css": "/dist/css/bootstrap[\\-theme]\\.(css\\.map|min\\.css)/",
+      "fonts": "dist/fonts/*"
+    },
+    "font-awesome": {
+      "css": "css/font-awesome.*",
+      "fonts": "fonts/*"
+    },
+    "jquery": {
+      "js": "dist/jquery.min.*"
+    },
+    "mocha": {
+      "js": "mocha.js",
+      "css": "mocha.css"
+    },
+    "morrisjs": {
+      "js": "morris.min.js",
+      "css": "morris.css"
+    },
+    "raphael": {
+      "js": "raphael-min.js"
+    }
+  },
+  "dependencies": {
+    "angular": "~1.3.11",
+    "angular-route": "~1.3.11",
+    "font-awesome": "~4.3.0",
+    "morrisjs": "~0.5.1",
+    "jquery": "~2.1.3",
+    "raphael": "~2.1.3",
+    "bootstrap": "~3.3.2"
+  }
+}
