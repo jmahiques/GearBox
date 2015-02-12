@@ -32,3 +32,5 @@ web_panel/bower_components
 
 #node
 web_panel/node_modules
+
+web_panel/public/vendor
