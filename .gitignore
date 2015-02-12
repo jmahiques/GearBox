@@ -26,3 +26,9 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+
+#bower
+web_panel/bower_components
+
+#node
+web_panel/node_modules
