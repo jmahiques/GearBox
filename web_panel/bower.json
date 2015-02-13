@@ -17,14 +17,14 @@
   ],
   "exportsOverride": {
     "angular": {
-      ".": "angular.min.*"
+      "js": "angular.min.*"
     },
     "angular-route": {
-      ".": "angular-route.min.*"
+      "js": "angular-route.min.*"
     },
     "bootstrap": {
-      "js": "bootstrap.min.js",
-      "css": "/dist/css/bootstrap[\\-theme]\\.(css\\.map|min\\.css)/",
+      "js": "bootstrap.min.js",      
+      "css": ["dist/css/bootstrap-theme.css.map","dist/css/bootstrap-theme.min.css","dist/css/bootstrap.css.map","dist/css/bootstrap.min.css"],
       "fonts": "dist/fonts/*"
     },
     "font-awesome": {
