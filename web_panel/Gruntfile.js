@@ -32,7 +32,7 @@ module.exports = function(grunt) {
   grunt.registerTask('default', []);
 
   //custom tasks
-  grunt.registerTask('update', ['bower']);
+  grunt.registerTask('bower:update', ['bower']);
   grunt.registerTask('server', ['shell:startServer']);
   grunt.registerTask('server:win', ['shell:startServerWin']);
 
