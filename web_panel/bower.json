@@ -23,7 +23,7 @@
       "js": "angular-route.min.*"
     },
     "bootstrap": {
-      "js": "bootstrap.min.js",      
+      "js": "dist/js/bootstrap.min.js",      
       "css": ["dist/css/bootstrap-theme.css.map","dist/css/bootstrap-theme.min.css","dist/css/bootstrap.css.map","dist/css/bootstrap.min.css"],
       "fonts": "dist/fonts/*"
     },
