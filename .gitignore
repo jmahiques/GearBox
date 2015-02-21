@@ -33,4 +33,8 @@ web_panel/bower_components
 #node
 web_panel/node_modules
 
+#public minified packages
 web_panel/public/vendor
+
+#Webstorm workspace
+.idea
